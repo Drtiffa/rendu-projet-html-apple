@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+/*               End of Setup             */
+/*NAVBAR*/
+nav {
+  background-color: #343231;
+}
+
+.nav ul{
+  background-color: #343231;
+  display: flex;
+  margin : 0px 150px;
+} 
+
+.nav li a {
+  margin : 0px 60px;
+}
+
+/**/
+.img {
+  display: flex;
+  margin: 10px 220px;
+}
+
+.iph {
+  margin: 250px 150px 10px 150px;
+}
+
+@font-face {
+  font-family: ip;
+  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
+ }
+
+p {
+  font-family: ip;
+  font-size: 40px;
+  text-align: center;
+  color: #343231;
+  margin: 0px 0px 15px 0px;
+}
+
+p a {
+  font-size: 24px;
+  color: #0ECFFF;
+  text-decoration: none;
+}
+
+/**/
+
+.ligne {
+  display: flex;
+  
+}
+
+.lig {
+  width: 355px;
+  height: 195px;
+  margin: 0px 3px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #f0f0f0;
+ padding: 10px 0px 30px 0px;
+}
+
+.tout {
+  display: flex;
+  margin: 0px 250px;
+}
+
+.to {
+  margin: 20px 30px;
+}
+
+@font-face {
+  font-family: ipp;
+  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
+ }
+
+
+h5 {
+  font-family: ipp;
+  margin: 10px 0px;
+  font-size: 15px;
+}
+
+h6 {
+  color:#929393;
+  font-family: ip;
+  margin: 8px 0px;
+  font-size: 15px;
+}
+
+.l1 {
+  color:#929393;
+  font-family: ip;
+  margin: 5px 0px 0px -500px;
+  font-size: 13px;
+  font-family: ippp;
+}
+
+@font-face {
+  font-family: ippp;
+  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
+ }
+
+span .cro {
+  color: #0ECFFF;
+  font-family: ipp;
+}
+
+.trait {
+  font-family: ippp;
+  font-size: 13px;
+  margin: 0px 0px 0px 57px;
+}
+
+span {
+  font-family: ip;
+  font-size: 14px;
+}
+
+.l2 {
+  margin: 8px 0px 0px 65px;
+}
+
+.bite {
+  font-size: 13px;
+  color: #0ECFFF;
+  text-decoration: none;
+}
